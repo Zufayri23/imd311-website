@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .w3-row-padding img {margin-bottom: 12px}
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {width: 120px;background: rgba(172, 44, 44, 0.884);}
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {margin-left: 120px}
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+        </style>
+        <body class="w3-black">
+        
+        <!-- Icon Bar (Sidebar - hidden on small screens) -->
+        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+          <!-- Avatar image in top left corner -->
+          <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/raya.jpg" style="width:100%">
+          <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+          </a>
+          <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+          </a>
+          <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>PHOTOS</p>
+          </a>
+          <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>EXPERIENCE</p>
+          </a>
+        </nav>
+        
+        <!-- Navbar on small screens (Hidden on medium and large screens) -->
+        <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+          <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+            <a href="#experience" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+          </div>
+        </div>
+        
+        <!-- Page Content -->
+
+        <style>
+            body {
+              background-image: url("file:///C:/Users/user/Desktop/CSS%20Individual/Photo/back.jpg");
+            }
+            </style>
+        <div class="w3-padding-large" id="main">
+          <!-- Header/Home -->
+          <audio controls autoplay muted>
+            <source src="file:///C:/Users/user/Desktop/CSS%20Individual/Music/LeeHi%20-%20ONLY%20(Lyrics).mp3" type="audio/mpeg">
+          </audio>
+          <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">Welcome to My World</span> </h1>
+            <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/afiq.png" alt="boy" class="w3-image" width="500" height="400">
+            <br>
+            <div class="w3-container">
+            <span style="font: size 150px;line-height:0.6em;opacity:0.2">❝</span>
+            <p>"When we do the best we can, we never know what miracle is wrought in our life or the life of another." by Helen </p>
+            <br>
+
+            <div class="card">
+              <h2>About Me</h2>
+              <p>“A sweet friendship refreshes the soul”, brings us joy and laughter. Our friends encourage us and motivate us when we feel depressed or low. Our friendships evolve with time from acquaintance to true friendship and best friends become part of our family. A special friend plays a significant role in our lives and we accept them just the way they are, yet, everyone has a personality and demeanour unique to them. No matter how old your friendship is, “friends gather no dust.”</p>
+            </div>
+
+          </header>
+        
+          <!-- About Section -->
+          <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <div class="w3-container w3-center w3-animate-right"></div>
+            <h2 class="w3-text-light-grey">Hello There and Feel Free to Say Hi!</h2>
+            <hr style="width: 900px;" class="w3-opacity">
+            <div class="w3-panel w3-amber">
+                <h1 class="w3-text-blue" style="text-shadow:1px 1px 0 #444">
+
+            <p>Name: Mohd Afiq Zufayri Bin Jaffri
+            <br>Age: 21 
+            <br>Birthday: 2 October 2001 
+            <br>Home Address: Taman Sempurna Kota Kinabalu, Sabah 
+            <br>Hobby: Volleyball and Valorant 
+            <br>Ambition: Pilot 
+            <br>Study: Degree of Aerospace Engineering in Universiti Putra Malaysia 
+        </p> </div> 
+
+            <div class="w3-container"></div>
+            <h3 class= "w3-padding-16 w3-text-light-grey">Education</h3>
+            
+            <table class="w3-table-all w3-card-4">
+                <tr>
+                  <th>Level of Education</th>
+                    <th>School Name</th>
+                  <th>Result</th>
+                </tr>
+                <tr>
+                  <td>Primary School</td>
+                  <td>SK Wira Jaya</td>
+                  <td>4A 2B</td>
+                </tr>
+                <tr>
+                  <td>Secondary School</td>
+                  <td>SMK Sungai Tapang</td>
+                  <td>4A 5B+</td>
+                </tr>
+                <tr>
+                  <td>Foundation of Agricultural Science</td>
+                  <td>Universiti Putra Malaysia</td>
+                  <td> CGPA: 3.80 </td>
+                </tr>
+                 <tr>
+                  <td>Degree of Aerospace Engineering</td>
+                  <td>Universiti Putra Malaysia</td>
+                  <td>CGPA: 3.90</td>
+                </tr>
+                
+              </table>
+            </div>
+
+            <h3 class="w3-padding-16">My Achievements</h3>
+            <div class="w3-container w3-center w3-animate-right"></div>
+            <p class="w3-wide">Academic</p>
+            <div class="w3-light-grey">
+              <div class="w3-container w3-deep-orange w3-center" style="width:90%">90%</div>
+            </div><br>
+
+            <p class="w3-wide">Sport in Volleyball and Shot Putt </p>
+            <div class="w3-light-grey">
+              <div class="w3-container w3-orange w3-center" style="width:50%">50%</div>
+            </div><br>
+
+            <p class="w3-wide">Active Student</p>
+            <div class="w3-light-grey">
+              <div class="w3-container w3-amber" style="width:85%">85%</div>
+            </div><br>
+            <br>
+
+            <div class="w3-container w3-cursive">
+            <h4 class="w3-padding-80 w3-text-Amber">My Family</h4>  
+            <br>
+    
+              <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/daddy.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Daddy </span>Jaffri @ Jaffir Bin Hashim</p>
+              <p>Lecture in Allied Health College, Sungai Buloh, Selangor.</p><br>
+              
+              <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/mummy.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Mummy</span> Bahiah Binti Osman</p>
+              <p>Nurse in Sarawak Heart Centre, Kota Samarahan, Sarawak.</p><br>
+              
+                 <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/farah.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Sister</span> Nur Amirah Farah Syasha Binti Jaffir</p>
+              <p>Degree Student in Chemical Engineering, Universiti Teknologi Malaysia, Johor.</p><br>
+              
+                 <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/zu.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Brother</span> Muhammad Zuhailey Bin Jaffir</p>
+              <p>Form 4 Student in SMK Samarahan, Sarawak.</p>
+
+            </div>
+<br>
+<br>
+              <!-- Portfolio Section -->
+  <div class="w3-padding-14 w3-content" id="photos">
+    <h5 class="w3-text-light-grey">My Photos</h5>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/parent.jpg" style="width:100%">
+        <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/post.png" style="width:100%">
+        <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/final.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/friend.jpg" style="width:100%">
+        <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/pubg.jpg" style="width:100%">
+        <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/volley.jpg" style="width:100%">
+        <img src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/lunch.jpg" style="width:100%"> 
+        
+    </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Experience Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="Experience">
+    <h2 class="w3-text-light-grey">Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+        <style>
+            .mySlides {display:none;}
+            </style>
+            <body>
+            
+            <div class="w3-container">
+            </div>
+            
+            <div class="w3-content w3-section" style="max-width:500px">
+              <img class="mySlides w3-animate-top" src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/work.jpg" style="width:100%">
+              <img class="mySlides w3-animate-bottom" src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/coffe.jpg" style="width:100%">
+              <img class="mySlides w3-animate-top" src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/coffee.jpg" style="width:100%">
+              <img class="mySlides w3-animate-bottom" src="file:///C:/Users/user/Desktop/CSS%20Individual/Photo/machine.jpg" style="width:100%">
+        
+            </div>
+            
+            <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2500);    
+            }
+            </script>
+            </div>
+            <br>
+            <div class="w3-container">
+              
+                <table class="w3-table-all">
+                  <thead>
+                    <tr class="w3-light-grey w3-hover-red">
+                      <th>Work </th>
+                      <th>Period</th>
+                      <th>Place</th>
+                    </tr>
+                  </thead>
+                  <tr class="w3-hover-green">
+                    <td>Barista</td>
+                    <td> 2 month </td>
+                    <td> Oldtown White Coffee, Pullman Hotel</td>
+                  </tr>
+                  <tr class="w3-hover-blue">
+                    <td>Street Food Seller </td>
+                    <td> 1 month </td>
+                    <td>Universiti Putra Malaysia, Serdang </td>
+                  </tr>
+                
+                </table>
+              </div> <br> 
+          
+              <!-- Gallery Section -->
+              <div class="w3-padding-64 w3-content w3-text-grey" id="Videos">
+                <h2 class="w3-text-light-grey">Videos</h2>
+                <br>
+            
+             <video width="400" controls>
+              <source src="file:///C:/Users/user/Desktop/CSS%20Individual/Video/basketball2.MP4" type="video/mp4">
+            </video>
+            
+            <video width="400" controls>
+              <source src="file:///C:/Users/user/Desktop/CSS%20Individual/Video/WhatsApp%20Video%202021-12-09%20at%205.10.35%20PM.mp4" type="video/mp4">
+            </video
+
+            <hr>
+
+            <div class="w3-white w3-margin">
+              <div class="w3-container w3-padding w3-black">
+                <h4>Follow Me</h4>
+              </div>
+              <div class="w3-container w3-xlarge w3-padding">
+                <i class="fa fa-facebook-official w3-hover-opacity">
+                  <a href="https://www.facebook.com/afiq.zufayri.5" target="_blank">w3.css</a></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <a href="https://www.instagram.com/afq_zj/" target="_blank">w3.css</a></i>
+                <i class="fa fa-youtube w3-hover-opacity"></i>
+                <a href="https://www.youtube.com/watch?v=6FMKkBN3N_0&t=361s" target="_blank">w3.css</a></i>
+              </div>
+            </div>
+            <hr>
+          
+            <!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>IMD311: Introduction to Web Content Management and Design </p> <br>
+  <p>Individual Project: Personal Website </p> <br>
+  <p>Prepared for Madam Sabariah Binti Abudul Samad</p> <br>
+    <p>COPYRIGHT @ 2022 NUR AIN BINTI YAHYA. ALL RIGHT RESERVED </p>
+</footer>
+</body>
+</html>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+      

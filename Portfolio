@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .w3-row-padding img {margin-bottom: 12px}
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {width: 120px;background: #222;}
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {margin-left: 120px}
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+        </style>
+        <body class="w3-black">
+        
+        <!-- Icon Bar (Sidebar - hidden on small screens) -->
+        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+          <!-- Avatar image in top left corner -->
+          <img src="raya.jpg" style="width:100%">
+          <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+          </a>
+          <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+          </a>
+          <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>PHOTOS</p>
+          </a>
+          <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+          </a>
+        </nav>
+        
+        <!-- Navbar on small screens (Hidden on medium and large screens) -->
+        <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+          <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+          </div>
+        </div>
+        
+        <!-- Page Content -->
+        <div class="w3-padding-large" id="main">
+          <!-- Header/Home -->
+          <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Afiq Zufayri.</h1>
+            <p>When we do the best we can, we never know what miracle is wrought in our life or the life of another.</p>
+            <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+          </header>
+        
+          <!-- About Section -->
+          <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">Hello There and Feel Free to Say Hi!</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>Name: Mohd Afiq Zufayri Bin Jaffri
+            <br>Age: 21 
+            <br>Birthday: 2 October 2001 
+            <br>Home Address: Taman Sempurna Kota Kinabalu, Sabah 
+            <br>Hobby: Volleyball and Valorant 
+            <br>Ambition: Pilot 
+            <br>Study: Degree of Aerospace Engineering in Universiti Putra Malaysia 
+        
+            <div class="w3-container"></div>
+            <h3 class= "w3-padding-16 w3-text-light-grey">Education</h3>
+            
+            <table class="w3-table-all w3-card-4">
+                <tr>
+                  <th>Level of Education</th>
+                    <th>School Name</th>
+                  <th>Result</th>
+                </tr>
+                <tr>
+                  <td>Primary School</td>
+                  <td>SK Wira Jaya</td>
+                  <td>4A 2B</td>
+                </tr>
+                <tr>
+                  <td>Secondary School</td>
+                  <td>SMK Sungai Tapang</td>
+                  <td>4A 5B+</td>
+                </tr>
+                <tr>
+                  <td>Foundation of Agricultural Science</td>
+                  <td>Universiti Putra Malaysia</td>
+                  <td> CGPA: 3.50 </td>
+                </tr>
+                 <tr>
+                  <td>Degree of Aerospace Engineering</td>
+                  <td>Universiti Putra Malaysia</td>
+                  <td>CGPA: 3.46 </td>
+                </tr>
+                
+              </table>
+            </div>
+
+            <h3 class="w3-padding-16">My Achievements</h3>
+            <p class="w3-wide">Academic</p>
+            <div class="w3-deep-orange">
+              <div class="w3-container w3-center w3-padding-small w3-deep-orange" style="width:95%">90%</div>
+            </div>
+            <p class="w3-wide">Sport in Volleyball and Shot Putt </p>
+            <div class="w3-orange">
+              <div class="w3-container w3-center w3-padding-small w3-orange" style="width:85%">60%</div>
+            </div>
+            <p class="w3-wide">School Prefects</p>
+            <div class="w3-amber">
+              <div class="w3-container w3-center w3-padding-small w3-amber" style="width:80%">50%</div>
+</div>
+            <h4 class="w3-padding-24 w3-text-light-grey">My Family</h4>  
+    
+              <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Daddy </span>Jaffri @ Jaffir Bin Hashim</p>
+              <p>Lecture in Allied Health College, Sungai Buloh, Selangor.</p><br>
+              
+              <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Mummy</span> Bahiah Binti Osman</p>
+              <p>Nurse in Sarawak Heart Centre, Kota Samarahan, Sarawak.</p><br>
+              
+                 <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Sister</span> Nur Amirah Farah Syasha Binti Jaffir</p>
+              <p>Degree Student in Chemical Engineering, Universiti Teknologi Malaysia, Johor.</p><br>
+              
+                 <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Brother</span> Muhammad Zuhailey Bin Jaffir</p>
+              <p>Form 4 Student in SMK Samarahan, Sarawak.</p>
+
+            </div>
+
+              <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h5 class="w3-text-light-grey">My Photos</h5>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Experience Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+        <style>
+            .mySlides {display:none;}
+            </style>
+            <body>
+            
+            <div class="w3-container">
+            </div>
+            
+            <div class="w3-content w3-section" style="max-width:500px">
+              <img class="mySlides w3-animate-top" src="img_rr_01.jpg" style="width:100%">
+              <img class="mySlides w3-animate-bottom" src="img_rr_02.jpg" style="width:100%">
+              <img class="mySlides w3-animate-top" src="img_rr_03.jpg" style="width:100%">
+              <img class="mySlides w3-animate-bottom" src="img_rr_04.jpg" style="width:100%">
+            </div>
+            
+            <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2500);    
+            }
+            </script>
+            </div>
+            <br>
+            <div class="w3-container">
+              
+                <table class="w3-table-all">
+                  <thead>
+                    <tr class="w3-light-grey w3-hover-red">
+                      <th>Work </th>
+                      <th>Period</th>
+                      <th>Place</th>
+                    </tr>
+                  </thead>
+                  <tr class="w3-hover-green">
+                    <td>Barista</td>
+                    <td> 2 month </td>
+                    <td> Oldtown White Coffee, Pullman Hotel</td>
+                  </tr>
+                  <tr class="w3-hover-blue">
+                    <td>Street Food Seller </td>
+                    <td> 1 month </td>
+                    <td>Universiti Putra Malaysia, Serdang </td>
+                  </tr>
+                
+                </table>
+              </div>
+
+            </div>
+
+        </body>
+</html>
